@@ -1,0 +1,28 @@
+Web layout, is used to create a pettern of the web structure. It is used to structure the presentation of the website for both the website owners and users 
+
+It provides a clear path for navigation within the web page
+
+there are different tools for layout construction
+1. position
+2. floats
+3. flexbo
+4. css grid
+
+FLOAT: as a css property allows you move an element to the right side or the left side of its container, it allows other texts and inline elements to wrap around it.
+Whenever float is used, the element is removed from  the normal flow of the page though the elements still remains part of the flow (in constrast to absolute positioning). It was originally designed to wrap text around images 
+
+
+FLEXBOX: Flexbox, it was introduced in css3, it is a good web layout model that allows responsive designs. the layout of elements in flebox are automatically arranged depending on screen sizes.
+To start using the flexbox model, you need to first define a flex container, it is done by setting the display property to flex.
+
+Once an element becomes a flex container, all the children of that elements, become flex items and they have access to flex properties like:
+flex-direction, flex-wrap, flex-flow, justify-content, align-items, align-content
+
+Flex-direction: This defines the direction in which the flex items will be stacked, the values for this attributes include: row, row-reverse, column, column-reverse. It is by default set to row.
+There are terminologies associated with flex-direction, which are the main-axis and the cross-axis.
+The direction of the main and cross axis is determined by the value of the flex-direction
+
+Justify content: It is a css property under the flex-direction, which is used to aligh items on the main axis. their values are:
+flex-start, flex-end, center, spaced-between, spaced-around, spacedd-evenly, etc
+
+Aligh Items: It is the css property similar to justify content, but this attribute worok on the cross axis of a flex element
